@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#headText {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 13px;
+  letter-spacing: 30px;
+}
+
+#inputAndButtonDiv {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.input, .button {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+#allNumbers {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+
+.number {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+}
